@@ -1,0 +1,64 @@
+h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 10px 5px red;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+img {
+    border-radius: 50px;
+    box-shadow: 10px 5px 7px blue;
+}
+a {
+    text-decoration: none;
+}
+.První {
+    color: blue;
+}
+.druhý {
+    color: blueviolet;
+}
+#nadpishtml {
+    color: rgb(255, 0, 0);
+}
+#nadpiscss {
+    color: blue;
+}
+body {
+    background-color: rgb(255, 255, 255);;
+    }
+
+.container {
+    width: 2250px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+.inline {
+    display: inline-block;
+}
+/* navigation */
+nav {
+    background-color: gray;
+}
+nav ul {
+    width: 1020px;
+    margin: auto;
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+    width: 145px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px; 
+}
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}

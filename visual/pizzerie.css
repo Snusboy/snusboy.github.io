@@ -1,0 +1,83 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(obrázky/pizza1.jpg);
+    background-size: cover;
+}
+
+
+
+header {
+    position: relative;
+    height: calc(100vh - 100px); 
+}
+
+.row {
+    width: 500px;
+}
+
+#logo img {
+    width: 600px;
+    height: 50px;
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.header-text h1 {
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #350006;
+    border-radius: 10px;
+    padding: 20px 140px;
+    display: inline-block;
+}
+
+.btn-full {
+    background: #030000;
+}
+
+.btn-empty {
+    margin: 10px;
+}
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0); 
+    color: #ffffff00;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; 
+}
+
+.contact-info {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
